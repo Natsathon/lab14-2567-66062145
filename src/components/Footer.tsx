@@ -1,9 +1,8 @@
-export const Footer = (props: {
-  year: string;
-  fullName: string;
-  studentId: string;
-}) => {
+import { Text } from "@mantine/core";
+export default function Footer() {
   return (
-    <p>Copyright © {props.year} {props.fullName} {props.studentId}</p>
+    <div>
+      <Text c="dimmed" ta="center">Copyright © 2024 Natsathon Phanamphan 660612145</Text>
+    </div>
   );
 }
