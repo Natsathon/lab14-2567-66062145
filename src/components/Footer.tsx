@@ -1,7 +1,9 @@
-export default function Footer() {
+export const Footer = (props: {
+  year: string;
+  fullName: string;
+  studentId: string;
+}) => {
   return (
-    <div>
-      <p>Copyright ©</p>
-    </div>
+    <p>Copyright © {props.year} {props.fullName} {props.studentId}</p>
   );
 }
