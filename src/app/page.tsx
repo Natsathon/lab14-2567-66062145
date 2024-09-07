@@ -35,7 +35,7 @@ export default function Home() {
       <Pagination total={20} color="orange" />
       </Group>
       <Text ta="center" my="sm">
-        Copyright © 2024 Natsathon Phnamphan 660612145
+        Copyright © 2024 Natsathon Phanamphan 660612145
       </Text>
     </Container>
   );
